@@ -1,0 +1,42 @@
+# Dependencies
+/vendor/
+/node_modules/
+
+# Build artifacts
+*.log
+*.cache
+.DS_Store
+Thumbs.db
+
+# IDE/Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+
+# Composer
+composer.lock
+
+# npm/yarn
+package-lock.json
+yarn.lock
+
+# Testing
+/tests/coverage/
+.phpunit.result.cache
+phpcs.xml
+
+# Distribution
+*.zip
+*.tar.gz
