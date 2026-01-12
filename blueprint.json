@@ -2,8 +2,14 @@
   "$schema": "https://playground.wordpress.net/blueprint-schema.json",
   "landingPage": "/wp-admin/plugins.php",
   "login": true,
-  "plugins": ["woocommerce"],
   "steps": [
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "woocommerce"
+      }
+    },
     {
       "step": "installPlugin",
       "pluginData": {
@@ -11,12 +17,10 @@
         "url": "https://github.com/Jameswlepage/ucp-woocommerce",
         "ref": "HEAD",
         "path": "/"
+      },
+      "options": {
+        "activate": true
       }
-    },
-    {
-      "step": "activatePlugin",
-      "pluginName": "UCP for WooCommerce (Reference Implementation)",
-      "pluginPath": "ucp-woocommerce/ucp-woocommerce.php"
     }
   ]
 }
