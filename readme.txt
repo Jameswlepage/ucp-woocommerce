@@ -9,6 +9,8 @@ License: GPLv2 or later
 
 **DISCLAIMER: This is an experimental/test implementation only. It is NOT an official WooCommerce plugin and will be deprecated. Do not use in production.**
 
+[Test in WordPress Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/Jameswlepage/ucp-woocommerce/main/blueprint.json)
+
 This plugin is a **reference implementation** of the Universal Commerce Protocol (UCP) **2026-01-11** for WooCommerce.
 
 It provides:

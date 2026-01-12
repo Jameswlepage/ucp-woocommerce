@@ -1,0 +1,22 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "landingPage": "/wp-admin/plugins.php",
+  "login": true,
+  "plugins": ["woocommerce"],
+  "steps": [
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "git:directory",
+        "url": "https://github.com/Jameswlepage/ucp-woocommerce",
+        "ref": "HEAD",
+        "path": "/"
+      }
+    },
+    {
+      "step": "activatePlugin",
+      "pluginName": "UCP for WooCommerce (Reference Implementation)",
+      "pluginPath": "ucp-woocommerce/ucp-woocommerce.php"
+    }
+  ]
+}
