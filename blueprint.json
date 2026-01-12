@@ -13,13 +13,8 @@
     {
       "step": "installPlugin",
       "pluginData": {
-        "resource": "git:directory",
-        "url": "https://github.com/Jameswlepage/ucp-woocommerce",
-        "ref": "HEAD",
-        "path": "/"
-      },
-      "options": {
-        "activate": true
+        "resource": "url",
+        "url": "https://github.com/Jameswlepage/ucp-woocommerce/archive/refs/tags/v0.1.0.zip"
       }
     }
   ]
